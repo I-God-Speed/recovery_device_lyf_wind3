@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/omni_crackling.mk
+	$(LOCAL_DIR)/omni_wind3.mk
