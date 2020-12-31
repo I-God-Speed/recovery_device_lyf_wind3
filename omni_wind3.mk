@@ -21,7 +21,7 @@ $(call inherit-product, vendor/pb/config/common.mk)
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-TARGET_OTA_ASSERT_DEVICE := wind3,crackling,jalebi,wt88047,Wind-3,LS-5502,trunk,peach,TBW5770A2
+TARGET_OTA_ASSERT_DEVICE := wind3,crackling,jalebi,wt88047,Wind-3,LS-5502,trunk,peach,TBW5770A2,lettuce,LYF Wind 3
 
 PRODUCT_NAME := omni_wind3
 PRODUCT_DEVICE := wind3
