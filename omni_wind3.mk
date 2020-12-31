@@ -13,18 +13,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/wileyfox/crackling/full_crackling.mk)
+$(call inherit-product, device/lyf/wind3/full_wind3.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/pb/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
-TARGET_OTA_ASSERT_DEVICE := crackling
+TARGET_OTA_ASSERT_DEVICE := wind3,crackling,jalebi,wt88047,Wind-3,LS-5502,trunk,peach,TBW5770A2
 
-PRODUCT_NAME := omni_crackling
-PRODUCT_DEVICE := crackling
-PRODUCT_BRAND := wileyfox
-PRODUCT_MANUFACTURER := wileyfox
-PRODUCT_GMS_CLIENTID_BASE := android-wileyfox
+PRODUCT_NAME := omni_wind3
+PRODUCT_DEVICE := wind3
+PRODUCT_BRAND := lyf
+PRODUCT_MANUFACTURER := lyf
+PRODUCT_GMS_CLIENTID_BASE := android-lyf
