@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/wileyfox/crackling
+DEVICE_PATH := device/lyf/wind3
 TARGET_CPU_CORTEX_A53 := true
 
 # Bootloader
