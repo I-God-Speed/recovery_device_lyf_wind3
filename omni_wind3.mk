@@ -16,7 +16,7 @@
 $(call inherit-product, device/lyf/wind3/full_wind3.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/pb/config/common.mk)
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
