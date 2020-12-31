@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := crackling
-PRODUCT_NAME := full_crackling
-PRODUCT_BRAND := wileyfox
-PRODUCT_MODEL := crackling
-PRODUCT_MANUFACTURER := wileyfox
+PRODUCT_DEVICE := wind3
+PRODUCT_NAME := full_wind3
+PRODUCT_BRAND := lyf
+PRODUCT_MODEL := wind3
+PRODUCT_MANUFACTURER := lyf
