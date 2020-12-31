@@ -14,6 +14,6 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_crackling-eng
-add_lunch_combo omni_crackling-userdebug
+add_lunch_combo omni_wind3-eng
+add_lunch_combo omni_wind3-userdebug
 
